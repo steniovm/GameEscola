@@ -1,0 +1,15 @@
+html{
+    background-color: white;
+}
+body{
+    background-color: #2430AD;
+    width: 339px;
+    height: 640px;
+}
+.iconegrande{
+    position: absolute;
+    width: 339px;
+    height: 195px;
+    left: 10px;
+    top: 212px;
+}
