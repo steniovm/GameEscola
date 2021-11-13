@@ -1,0 +1,33 @@
+nav{
+    display:flex;
+    background-color: #2430AD;
+    min-height: 54px;
+    flex-direction: column;
+    padding: 0 10%;
+
+}
+
+.menu{
+    display: flex;
+    position: sticky;
+    top: 0;
+    flex-wrap: wrap;
+    list-style: none;
+    flex:auto;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+}
+
+.menu li:focus-within{
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+}
