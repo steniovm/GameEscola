@@ -3,13 +3,20 @@ html{
 }
 body{
     background-color: #2430AD;
-    width: 339px;
+    width: 360px;
     height: 640px;
 }
 .iconegrande{
-    position: absolute;
     width: 339px;
     height: 195px;
     left: 10px;
     top: 212px;
 }
+.iconegrande > img{
+    margin-top: 50%;
+    width: 339px;
+    height: 195px;
+    left: 10px;
+    top: 212px;
+}
+
