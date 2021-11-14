@@ -27,6 +27,18 @@ body::-webkit-scrollbar-thumb {
     background: #55a;
 }
 
+/*pagina inicial*/
+.htmlindex{
+    background-color: #fff;
+}
+.bodyindex{
+    background-color: #2430AD;
+}
+.iconindex >img{
+    margin-top: 50%;
+    width: 360px;
+}
+
 /* Configurações do menu */
 nav{
     display:flex;
