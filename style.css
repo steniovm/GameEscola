@@ -5,6 +5,7 @@
         width: 360px;
         height: 640px;
         margin: 0 auto;
+        border: 1px solid #000;
     }
 }
 
@@ -13,6 +14,17 @@
         width: 100%;
         margin: 0 auto;
     }
+}
+
+/*barra de rolagem suave*/
+body::-webkit-scrollbar-track {
+    background-color: #ccc;
+}
+body::-webkit-scrollbar {
+    width: 3px;
+}
+body::-webkit-scrollbar-thumb {
+    background: #55a;
 }
 
 /* Configurações do menu */
