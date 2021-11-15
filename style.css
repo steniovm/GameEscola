@@ -16,6 +16,11 @@
         width: 100%;
         margin: 0 auto;
         background-color: #fff;
+        border-radius: 0px;
+    }
+    
+    html{
+        background-color: #fff;
     }
 }
 
