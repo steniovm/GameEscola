@@ -104,13 +104,14 @@ nav{
     position: absolute;
     opacity: 1;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .iconAtv{
     position: absolute;
     opacity: 0;
     cursor: pointer;
-
+    transition: 0.5s;
 }
 
 /* Configuração do icone do menu ao ser clicado (pode ser ativado quando as outras paginas forem implementadas)
@@ -203,10 +204,12 @@ input[name="option"] {
 
 #option1:checked ~ .dropConq .iconI1{
     opacity: 0;
+    transform: rotate(180deg);
 }
 
 #option1:checked ~ .dropConq .iconA1{
     opacity: 1;
+    transform: rotate(180deg);
 }
 
 #option1:checked ~ .dropConq .conquistas1{
@@ -221,10 +224,12 @@ input[name="option"] {
 
 #option2:checked ~ .dropConq .iconI2{
     opacity: 0;
+    transform: rotate(180deg);
 }
 
 #option2:checked ~ .dropConq .iconA2{
     opacity: 1;
+    transform: rotate(180deg);
 }
 
 #option2:checked ~ .dropConq .conquistas2{
@@ -239,10 +244,12 @@ input[name="option"] {
 
 #option3:checked ~ .dropConq .iconI3{
     opacity: 0;
+    transform: rotate(180deg);
 }
 
 #option3:checked ~ .dropConq .iconA3{
     opacity: 1;
+    transform: rotate(180deg);
 }
 
 #option3:checked ~ .dropConq .conquistas3{
@@ -258,10 +265,12 @@ input[name="option"] {
 
 #option4:checked ~ .dropConq .iconI4{
     opacity: 0;
+    transform: rotate(180deg);
 }
 
 #option4:checked ~ .dropConq .iconA4{
     opacity: 1;
+    transform: rotate(180deg);
 }
 
 #option4:checked ~ .dropConq .conquistas4{
