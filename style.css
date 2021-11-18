@@ -17,7 +17,7 @@
     }
 }
 
-@media screen and (MAX-width: 500px) {
+@media screen and (MAX-width: 500px) {/*Atributos devem ser escritos em minúsculo*/
     body{
         width: 100%;
         margin: 0 auto;

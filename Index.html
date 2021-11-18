@@ -1,3 +1,23 @@
+<!-- Resumo => 
+        Positivos
+        1º uso do OpenGraph.
+        2º Boa modularização da aplicação.
+        3º Consistência e padrão de design
+        4º Boa estrutura CSS
+        
+        Negativos
+        1º Codificação em dupla linguagem
+        2º Valores de atributos sem padronização(preferencialmente kebab-case)
+        3º Valores de atributos pouco descritivos
+        
+        Extra
+        1º O ideal é que as pastas de imagens sejam subpastas da pasta assets. dentro da pasta assets podem separar 
+        o que é icone(pasta icons) do que é imagem(pasta images).
+
+        2º Está incorreto o uso da tag <label> agrupando diversos elementos, mas entendi que foi pra criar a animação com o checkbox
+
+        Vocês encontrarão mais feedback ao longo dos arquivos index.html, aluno-conquista.html e styles.css.html
+     -->
 <!DOCTYPE html>
 <html  lang="pt-br" class="htmlindex">
 <head>
@@ -13,10 +33,13 @@
     <meta property="og:locale" content="pt-br" />
     <link href="style.css" type="text/css" rel="stylesheet">
 </head>
-<body class="bodyindex">
-    <div class="iconindex">
-        <img src="svg/logo.svg">
+<body class="bodyindex">  <!--Valores de atributos devem ser escritos em kebab case
+<body class="body-index">-->
+    <div class="iconindex"><!--As propriedades dessa div, poderia estar na propria <img> da logo e essa div não seria necessaria-->
+        <img src="svg/logo.svg"> <!--O modo correto de fechamento de tag que fecha em si mesmo é /> no final
+        <img src="svg/logo.svg" /> também é esperado para todas as tags <img> o atributo alt
+        <img src="svg/logo.svg" alt="Logomarca"/>-->
     </div>
-    <a class="aindex" href="login.html"><div></div></a>
+    <a class="aindex" href="login.html"><div></div></a><!--? tag <div> desnecessária-->
 </body>
 </html>
